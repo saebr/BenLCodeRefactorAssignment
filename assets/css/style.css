@@ -12,21 +12,6 @@
     background-position: center;
 
 }
-
-
-
-aside {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 .maincontent { 
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -39,6 +24,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This section sets up the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -106,6 +92,19 @@ p {
     margin-left: 20px;
 }
 
+/* This group is for the aside bar.*/
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* This adds margins, sets the background color and font */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -165,6 +164,8 @@ p {
     max-width: 150px;
 }
 
+
+/* This section is for the main content boxes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -219,6 +220,7 @@ p {
     font-size: 36px;
 }
 
+/* This section is for the footer. */
 footer {
     padding: 30px;
     clear: both;
